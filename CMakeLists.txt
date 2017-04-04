@@ -46,21 +46,17 @@ set(GAMELOOP_GRP
   GameLoop/main.cpp
 )
 #Mesh Group
-#set(MESH_GRP
-#    Mesh/Mesh_Box_Line.cpp
-#    Mesh/Mesh_Box_Line.hpp
-#    Mesh/Mesh_Box.cpp
-#    Mesh/Mesh_Box.hpp
-#    Mesh/Mesh_Plane_Line.cpp
-#    Mesh/Mesh_Plane_Line.hpp
-#    Mesh/Mesh_Plane.cpp
-#    Mesh/Mesh_Plane.hpp
-#    Mesh/Mesh_Sphere_Line.cpp
-#    Mesh/Mesh_Sphere_Line.hpp
-#    Mesh/Mesh_Sphere.cpp
-#    Mesh/Mesh_Sphere.hpp
-#    Mesh/Mesh.hpp
-#)
+set(MESH_GRP
+    Mesh/Mesh_Box_Line.cpp
+    Mesh/Mesh_Box_Line.hpp
+    Mesh/Mesh_Box.cpp
+    Mesh/Mesh_Box.hpp
+    Mesh/Mesh_Plane_Line.hpp
+    Mesh/Mesh_Plane.hpp
+    Mesh/Mesh_Sphere_Line.hpp
+    Mesh/Mesh_Sphere.hpp
+    Mesh/Mesh.hpp
+)
 
 # Rendering Group
 set(RENDERING_GRP
@@ -101,33 +97,19 @@ set(COMMON_GRP
 
 #core group
 set(CORE_GRP
-    Core/BaseComponent.cpp
     Core/BaseComponent.hpp
-    Core/Behavior.cpp
-    Core/Behavior.hpp
-    Core/Component.cpp
     Core/Component.hpp
-    Core/Composite.cpp
-    Core/Composite.hpp
     Core/GameObject.cpp
     Core/GameObject.hpp
-    Core/Light.cpp
     Core/Light.hpp
     Core/Material.cpp
     Core/Material.hpp
     Core/Mesh.cpp
     Core/Mesh.hpp
-    Core/Model.cpp
     Core/Model.hpp
     Core/PhysicsManager.cpp
     Core/PhysicsManager.hpp
-    Core/PlayerBehavior.cpp
-    Core/PlayerBehavior.hpp
-    Core/RenderComponent.cpp
     Core/RenderComponent.hpp
-    Core/Renderer.cpp
-    Core/Renderer.hpp
-    Core/Scene.cpp
     Core/Scene.hpp
     Core/System.hpp
     Core/Transform.cpp
